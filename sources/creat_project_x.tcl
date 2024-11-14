@@ -11,7 +11,7 @@ set synth_p 0
 # 是否进行布局布线、生成比特流的操作(bitstream_p=1进行)
 set bitstream_p 0
 # 是否在所有操作结束后关闭工程(close_p=1关闭)
-set close_p 0
+set close_p 1
 
 # 规定线程数(提升线程数可以使运行更快)
 set_param general.maxThreads 12
